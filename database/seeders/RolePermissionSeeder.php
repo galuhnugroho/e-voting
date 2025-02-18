@@ -14,6 +14,27 @@ class RolePermissionSeeder extends Seeder
             'view',
         ],
 
+        'candidate' => [
+            'view',
+            'create',
+            'update',
+            'delete',
+        ],
+
+        'voter' => [
+            'view',
+            'create',
+            'update',
+            'delete',
+        ],
+
+        'vote' => [
+            'view',
+            'create',
+            'update',
+            'delete',
+        ],
+
         'user' => [
             'view',
             'create',
